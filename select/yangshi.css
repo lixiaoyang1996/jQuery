@@ -1,0 +1,33 @@
+#box
+{
+	color  : red; //添加一個樣式(id選擇器)  
+	
+}
+
+.pox
+{
+	color : green; // 類選擇器  
+}
+
+body
+{
+	background-color: whitesmoke; //標籤選擇器 
+}
+
+#box >p  //對於兄弟節點限制標籤
+{
+	color : blue;
+}
+
+p,#box,strong{
+	color : red;
+}
+
+ul li a{
+	text-decoration : none;
+	color : red;
+}
+li{
+	float : left;
+	margin-left : 30px;
+}
